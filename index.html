@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=4b64a2fc-bf53-48cc-be23-16d5075ba4c3" type="text/javascript"></script>
+    <title>Артифекс</title>
+    <style>
+        html, body, #map {
+            width: 100%; height: 100%; padding: 0; margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="firstSlide">
+    <div class="header">
+        <div class="logoBlock">
+            <img class="logo" src="assets/logo.svg" alt="" srcset="">
+            <p class="textLogo">Артифекс</p>
+        </div>
+        <div class="menu">
+            <ul class="menuBlock">
+                <li><a href="#firstSlide">Продукция</a> </li>
+                <li><a href="#secondSlide">О нас</a></li>
+                <li><a href="#fourSlide">Сотрудничество</a></li>
+                <li><a href="#fourSlide">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="infoSlide">
+        <div class="infoText">
+            <h1 class="nameCompany animate__animated animate__backInLeft">ООО "Артифекс"<br>завод погонажной продукции</h1>
+            <p class="descInfo animate__animated animate__backInLeft">осуществляющее обработку дерева и поставки<br>погонажа по всему миру</p>
+        </div>
+        <div class="infoImg">
+            <img class="factryImg" src="assets/Factory.svg" alt="" srcset="">
+            <img class="unionImg animate__animated  animate__swing" src="assets/Union.svg" alt="" srcset="">
+        </div>
+    </div>
+    <div>
+    <div class="lang">
+        <p class="active">RU</p>
+        <p class="">EN</p>
+    </div>
+    </div>
+    </div>
+    <div class="secondSlide" id="secondSlide">
+        <h1 class="nameCat">Наша продукция</h1>
+        <div class="slider">
+            <section>
+                <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <img src="assets/sliderImg/Брусок.png" alt="">
+                            <div class="nameSource">
+                                <p>Полиматериал<br>(сосна)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <img src="assets/sliderImg/Брусок.png" alt="">
+                            <div class="nameSource">
+                                <p>Полиматериал<br>(сосна)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <img src="assets/sliderImg/Вагонка.png" alt="">
+                            <div class="nameSource">
+                                <p>Полиматериал<br>(сосна)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <img src="assets/sliderImg/Лиственница.png" alt="">
+                            <div class="nameSource">
+                                <p>Полиматериал<br>(сосна)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <img src="assets/sliderImg/Сосна.png" alt="">
+                            <div class="nameSource">
+                                <p>Полиматериал<br>(сосна)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <img src="assets/sliderImg/Брусок.png" alt="">
+                            <div class="nameSource">
+                                <p>Полиматериал<br>(сосна)</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next "></div>
+            <div class="swiper-button-prev "></div>
+            </section>
+        </div>
+        <div class="downPrice">
+            <button class="buttonDown">
+                <p>Скачать<br>Прайс-лист</p>
+            </button>
+        </div>
+    </div>
+    <div class="threeSlide" id="threeSlide">
+        <h1 class="nameCat">Как мы работаем?</h1>
+        <div class="delivery">
+            <div class="mainHowItem">
+                <p class="mainHow animate__animated animate__backInLeft">1. Оформление заказа</p>
+                <p class="mainHow animate__animated animate__backInLeft">2. Доставка товара</p>
+                <p class="mainHow animate__animated animate__backInLeft">3.Оплата</p>
+            </div>
+            <div class="descHowItem">
+                <p class="descHow animate__animated animate__backInRight">Оставьте заявку на сайте,<br>
+                    после с вами свяжется наш менеджер.</p>
+                <p class="descHow animate__animated animate__backInRight">Доставка продукции осуществляется<br>
+                    преимущественно наземным и морским <br>
+                    транспортом</p>
+                <p class="descHow animate__animated animate__backInRight">Оплата производится при получении<br> 
+                    товара. Возможна наличная и безналичная <br>
+                    форма оплаты</p>
+            </div>
+        </div>
+    </div>
+    <div class="fourSlide" id="fourSlide">
+        <h1 class="nameCat">Оставьте заявку</h1>
+        <form action="" method="post">
+            <input type="text" name="name" id="name" placeholder="Имя">
+            <input type="text" name="email" id="email" placeholder="Email">
+            <input type="text" name="tel" id="name" placeholder="Телефон">
+            <button type="submit"><p>Отправить заяку</p></button>
+        </form>
+    </div>
+    <div class="fiveSlide">
+        <div class="map">
+            <div id="map"></div>
+        </div>
+        <div class="contact">
+            
+        </div>
+    </div>
+
+    <script src="js/map.js"></script>
+    <script src="js/yakor.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
