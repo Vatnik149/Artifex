@@ -321,7 +321,7 @@
     padding-right: 100px;
   }
   .firstSlide .header .logoBlock {
-    margin-left: 50px;
+    margin-left: 40px;
   }
   .firstSlide .header .logoBlock .logo {
     margin-right: 7px;
@@ -377,11 +377,7 @@
     padding: 0px;
   }
   .fiveSlide .map iframe {
-    margin-left: 0px;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    width: 800px;
-    height: 746px;
+    width: 400px;
+    height: 335px;
   }
 }/*# sourceMappingURL=adaptive.css.map */
