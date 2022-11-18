@@ -321,14 +321,14 @@
     padding-right: 100px;
   }
   .firstSlide .header .logoBlock {
-    margin-right: 300px;
-    margin-left: 100px;
+    margin-right: 50px;
+    margin-left: 50px;
   }
   .firstSlide .header .logoBlock .logo {
     margin-right: 7px;
   }
   .firstSlide .header .logoBlock .textLogo {
-    font-size: 2px;
+    font-size: 16px;
   }
   .firstSlide .menu .menuBlock {
     margin-left: 7px;
