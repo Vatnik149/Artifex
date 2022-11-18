@@ -1,54 +1,24 @@
-ymaps.ready(function () {
-    var myMap = new ymaps.Map('map', {
-            center: [55.751574, 37.573856],
-            zoom: 9
-        }, {
-            searchControlProvider: 'yandex#search'
-        }),
+ymaps.ready(init); 
+var myMap;
 
-        // Создаём макет содержимого.
-        MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-            '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-        ),
+function init() {
 
-        myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-            hintContent: 'Собственный значок метки',
-            balloonContent: 'Это красивая метка'
-        }, {
-            // Опции.
-            // Необходимо указать данный тип макета.
-            iconLayout: 'default#image',
-            // Своё изображение иконки метки.
-            iconImageHref: 'images/myIcon.gif',
-            // Размеры метки.
-            iconImageSize: [30, 42],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            iconImageOffset: [-5, -38]
-        }),
+    myMap = new ymaps.Map("map", {
+        center: [43.238253, 76.945465], // Координаты центра карты
+        zoom: 13 // Маштаб карты
+    }); 
 
-        myPlacemarkWithContent = new ymaps.Placemark([55.661574, 37.573856], {
-            hintContent: 'Собственный значок метки с контентом',
-            balloonContent: 'А эта — новогодняя',
-            iconContent: '12'
-        }, {
-            // Опции.
-            // Необходимо указать данный тип макета.
-            iconLayout: 'default#imageWithContent',
-            // Своё изображение иконки метки.
-            iconImageHref: 'images/ball.png',
-            // Размеры метки.
-            iconImageSize: [48, 48],
-            // Смещение левого верхнего угла иконки относительно
-            // её "ножки" (точки привязки).
-            iconImageOffset: [-24, -24],
-            // Смещение слоя с содержимым относительно слоя с картинкой.
-            iconContentOffset: [15, 15],
-            // Макет содержимого.
-            iconContentLayout: MyIconContentLayout
-        });
+    myMap.controls.add(
+        new ymaps.control.ZoomControl()  // Добавление элемента управления картой
+    ); 
 
-    myMap.geoObjects
-        .add(myPlacemark)
-        .add(myPlacemarkWithContent);
-});
+    myPlacemark = new ymaps.Placemark([43.238253,76.945465], { // Координаты метки объекта
+        balloonContent: "<div class='ya_map'>Заезжайте в гости!</div>" // Подсказка метки
+    }, {
+        preset: "twirl#redDotIcon" // Тип метки
+    });
+    
+    myMap.geoObjects.add(myPlacemark); // Добавление метки
+    myPlacemark.balloon.open(); // Открытие подсказки метки
+    
+};

@@ -156,6 +156,7 @@ body {
 }
 
 .threeSlide .delivery {
+  text-align: center;
   margin-bottom: 220px;
   text-align: start;
   display: flex;
@@ -279,4 +280,63 @@ body {
   letter-spacing: 0.025em;
   text-transform: uppercase;
   color: #0B0A0A;
+}
+
+.fiveSlide {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.fiveSlide .nameCat {
+  margin-bottom: 50px;
+}
+.fiveSlide .map {
+  margin: 0px;
+  padding: 0px;
+}
+.fiveSlide .map iframe {
+  margin-left: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  width: 996px;
+  height: 746px;
+}
+.fiveSlide .contact-info .main-items {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 129.52%;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #219653;
+  margin-left: 135px;
+  margin-right: 128px;
+}
+.fiveSlide .contact-info .desc-items {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 129.52%;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-top: 27px;
+}
+.fiveSlide .contact-info .adresCont {
+  display: flex;
+}
+.fiveSlide .contact-info .emailCont {
+  display: flex;
+}
+.fiveSlide .contact-info .emailCont .desc-items {
+  margin-left: 19px;
+}
+.fiveSlide .contact-info .telCont {
+  display: flex;
+}
+.fiveSlide .contact-info .telCont .desc-items {
+  margin-left: -32px;
 }/*# sourceMappingURL=style.css.map */

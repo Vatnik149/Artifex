@@ -9,13 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=4b64a2fc-bf53-48cc-be23-16d5075ba4c3" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles/adaptive.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <title>Артифекс</title>
-    <style>
-        html, body, #map {
-            width: 100%; height: 100%; padding: 0; margin: 0;
-        }
-    </style>
 </head>
 <body>
     <div class="firstSlide">
@@ -29,7 +25,7 @@
                 <li><a href="#firstSlide">Продукция</a> </li>
                 <li><a href="#secondSlide">О нас</a></li>
                 <li><a href="#fourSlide">Сотрудничество</a></li>
-                <li><a href="#fourSlide">Контакты</a></li>
+                <li><a href="#fiveSlide">Контакты</a></li>
             </ul>
         </div>
     </div>
@@ -147,17 +143,35 @@
             <button type="submit"><p>Отправить заяку</p></button>
         </form>
     </div>
-    <div class="fiveSlide">
+    <div class="fiveSlide" id="fiveSlide">
         <div class="map">
-            <div id="map"></div>
+            <iframe src="https://yandex.ru/map-widget/v1/-/CCUb7AqqwC"  frameborder="1" allowfullscreen="true" ></iframe>
         </div>
         <div class="contact">
-            
+            <h1 class="nameCat">Контакты</h1>
+            <div class="contact-info">
+            <div class="adresCont">
+                <p class="main-items">Адрес:</p>
+                <p class="desc-items">450521, Россия, Республика Башкортостан,<br>
+                    Уфимский р-н, Кирилловский сельсовет, мкр.<br>
+                    Индустриальный парк
+                </p>
+            </div>
+            <div class="emailCont">
+                <p class="main-items">Email</p>
+                <p class="desc-items">example@example.ru</p>
+            </div>
+            <div class="telCont">
+                <p class="main-items">Телефон</p>
+                <p class="desc-items">+77777777777</p>
+            </div>
+        </div>
         </div>
     </div>
 
     <script src="js/map.js"></script>
     <script src="js/yakor.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<60ef2bdf-a856-4d5a-9065-1a3e22541e9d>" type="text/javascript"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
 </body>

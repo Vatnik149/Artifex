@@ -137,9 +137,7 @@ body{
         &.active{
             color: #000000;
         }
-    }
-
-    
+    } 
 }
 .secondSlide{
     .downPrice{
@@ -171,8 +169,8 @@ body{
     }
 }
 .threeSlide{
-    
     .delivery{
+        text-align: center;
         margin-bottom: 220px;
         text-align: start;
         display: flex;
@@ -282,6 +280,64 @@ body{
                     text-transform: uppercase;
                     color: #0B0A0A;
                 }
+        }
+    }
+}
+.fiveSlide{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    .nameCat{
+        margin-bottom: 50px;
+    }
+    .map{
+        margin: 0px;
+        padding: 0px;
+
+        iframe{
+            margin-left: 0px;
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            width: 996px;
+            height: 746px;
+        }
+    }
+    .contact-info{
+        .main-items{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 129.52%;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            color: #219653;
+            margin-left: 135px;
+            margin-right: 128px;
+        }
+        .desc-items{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 129.52%;
+            letter-spacing: 0.025em;
+            text-transform: uppercase;
+            color: #000000;
+            margin-top: 27px;
+        }
+
+        .adresCont{
+            display: flex;
+        }
+        .emailCont{
+            display: flex;
+            .desc-items{margin-left: 19px;}
+        }
+        .telCont{
+            display: flex;
+            .desc-items{margin-left: -32px;}
         }
     }
 }
