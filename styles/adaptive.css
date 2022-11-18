@@ -316,6 +316,10 @@
   }
 }
 @media screen and (max-width: 480px) {
+  body{
+  overflow: hidden;
+  height: 100vh;
+  }
   .firstSlide .header {
     padding-left: 100px;
     padding-right: 100px;
