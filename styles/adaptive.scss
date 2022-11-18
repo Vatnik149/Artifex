@@ -393,14 +393,13 @@
         .header{
             padding-left: 100px;
             padding-right: 100px;
-        .logoBlock{
-            margin-right: 300px;
-            margin-left: 100px;
+        .logoBlock{ 
+            margin-left: 40px;
             .logo{
                 margin-right: 7px;
             }
             .textLogo{
-                font-size: 2px;
+                font-size:16px;
             }
         }
     }
@@ -409,7 +408,7 @@
             margin-left: 7px;
             li{
                 a{
-                    font-size: 8px;
+                    font-size: 10px;
                 }
             }
         }
@@ -425,17 +424,18 @@
             justify-content:start;
             align-items: flex-start;
                 .mainHowItem{
-                    margin-left: 50px;
+                    margin-top: 70px;
+                    margin-left: 10px;
                     margin-right: 80px;
                     text-align: start;
                     p{
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 700;
-                    font-size: 22px;
+                    font-size: 16px;
                     line-height: 129.52%;
                     text-align: center;
-                    letter-spacing: 0.025em;
+                    letter-spacing: 0.025em; 
                     text-transform: uppercase;
                     color: #219653;
                     margin-bottom: 100px;
@@ -461,13 +461,153 @@
             padding: 0px;
     
             iframe{
-                margin-left: 0px;
-                margin: 0px;
-                padding: 0px;
-                border: 0px;
-                width: 800px;
-                height: 746px;
+                width: 400px;
+                height: 335px;
             }
+        }
+        .contact-info{
+            .main-items{
+                font-size: 16px;
+                line-height: 129.52%;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                color: #219653;
+                margin-left: 20px;
+                margin-right: 60px;
+                margin-top: 20px;
+            }
+            .desc-items{
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 129.52%;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                color: #000000;
+                margin-top: 27px;
+            }
+    
+            .adresCont{
+                display: flex;
+            }
+            .emailCont{
+                display: flex;
+                .desc-items{margin-left: 19px;}
+            }
+            .telCont{
+                display: flex;
+                .desc-items{margin-left: -32px;}
+            }
+        }
+    }
+    .fourSlide{
+        .nameCat{
+            margin-bottom: 100px;
+        }
+        form{
+            display: block;
+            width: 400px;
+            height: 440px;
+            background-color: rgb(255, 255, 255);
+            background: #FFFFFF;
+            box-shadow: 0px 5px 43px -12px rgba(0, 0, 0, 0.25);
+            border-radius: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 87px;
+            margin-bottom: 50px;
+    
+            input{
+                margin-bottom: 58px;
+                width: 219px;
+                height: 21px;
+                border: 3px solid #6FCF97;
+                border-radius: 20px;
+                color: #000000;
+                padding: 10px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 129.52%;
+                text-align: start;
+                letter-spacing: 0.025em;
+                text-transform: uppercase;
+                margin-left: 76px;
+                color: #020202;
+    
+                &::placeholder{
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 129.52%;
+                    text-align: start;
+                    letter-spacing: 0.025em;
+                    text-transform: uppercase;
+                    color: #535353;
+                }
+            }
+            button{
+                    background: #6FCF97;
+                    border: 1px solid #6FCF97;
+                    border-radius: 15px;
+                    width: 297px;
+                    height: 64px;
+                    border: 0px;
+                    text-align: center;
+                    margin-left: 50px;
+    
+                    p{         
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 129.52%;
+                        text-align: center;
+                        letter-spacing: 0.025em;
+                        text-transform: uppercase;
+                        color: #0B0A0A;
+                    }
+            }
+        }
+    }
+    .swiper{
+        width: 600px;
+
+    .card-content{
+        margin-left: 70px;
+        width: 200px;
+        img{
+            width: 200px;
+        }
+    }
+    }
+    .infoSlide{
+        display: block;
+    
+        .infoText{
+            .nameCompany{
+                font-size: 36px;
+            }
+            .descInfo{
+                font-size: 24px;
+            }
+        }
+        .infoImg{
+            display: flex;
+                margin-left: 58px;
+                img.factryImg{
+                    position: absolute;
+                    z-index: 10;
+                }
+                img.unionImg{
+                    position: relative;
+                    z-index: 0;
+                    margin-right: 120px;
+                    width: 325px;
+                }
         }
     }
     

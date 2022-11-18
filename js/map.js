@@ -5,7 +5,7 @@ function init() {
 
     myMap = new ymaps.Map("map", {
         center: [43.238253, 76.945465], // Координаты центра карты
-        zoom: 13 // Маштаб карты
+        zoom: 26 // Маштаб карты
     }); 
 
     myMap.controls.add(
