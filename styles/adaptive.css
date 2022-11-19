@@ -319,6 +319,7 @@
   .firstSlide .header {
     padding-left: 100px;
     padding-right: 100px;
+    margin-right: 0px;
   }
   .firstSlide .header .logoBlock {
     margin-left: 40px;
@@ -328,6 +329,9 @@
   }
   .firstSlide .header .logoBlock .textLogo {
     font-size: 16px;
+  }
+  .firstSlide .menu {
+    margin-right: 0px;
   }
   .firstSlide .menu .menuBlock {
     margin-left: 7px;
@@ -343,6 +347,7 @@
     display: flex;
     justify-content: start;
     align-items: flex-start;
+    margin-right: 0px;
   }
   .threeSlide .delivery .mainHowItem {
     margin-top: 70px;
@@ -366,6 +371,7 @@
     font-weight: 400;
     font-size: 15px;
     margin-top: 50px;
+    margin-right: 0px;
   }
   .fiveSlide {
     display: block;
@@ -518,12 +524,13 @@
   }
   .infoSlide {
     display: block;
+    margin-top: 0px;
   }
   .infoSlide .infoText .nameCompany {
-    font-size: 36px;
+    font-size: 24px;
   }
   .infoSlide .infoText .descInfo {
-    font-size: 24px;
+    font-size: 18px;
   }
   .infoSlide .infoImg {
     display: flex;
@@ -538,5 +545,17 @@
     z-index: 0;
     margin-right: 120px;
     width: 325px;
+  }
+  .swiper-button-next {
+    opacity: 0;
+  }
+  .swiper-button-prev {
+    opacity: 0;
+  }
+  .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 0;
+  }
+  .nameCat {
+    margin-bottom: 25px;
   }
 }/*# sourceMappingURL=adaptive.css.map */
