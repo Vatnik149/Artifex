@@ -407,10 +407,10 @@
     .menu{
         margin-right: 0px;
         .menuBlock{
-            margin-left: 200px;
+            margin-left: 180px;
             li{
                 a{
-                    font-size: 10px;
+                    font-size: 8px;
                 }
             }
         }
@@ -420,7 +420,7 @@
         .delivery{
             display: block;
             text-align: center;
-            margin-bottom: 220px;
+            margin-bottom: 74px;
             text-align: start;
             display: flex;
             justify-content:start;
@@ -435,7 +435,7 @@
                     font-family: 'Montserrat';
                     font-style: normal;
                     font-weight: 700;
-                    font-size: 16px;
+                    font-size: 12px;
                     line-height: 129.52%;
                     text-align: center;
                     letter-spacing: 0.025em; 
@@ -447,9 +447,10 @@
                 .descHowItem{
                     p{
                     font-weight: 400;
-                    font-size: 15px;
+                    font-size: 12px;
                     margin-top: 50px;
-                    margin-right: 0px;
+                    margin-right: 82px;
+                    margin-block-end: auto;
                     }
                 }
     
@@ -512,7 +513,7 @@
         form{
             display: block;
             width: 400px;
-            height: 440px;
+            height: 704px;
             background-color: rgb(255, 255, 255);
             background: #FFFFFF;
             box-shadow: 0px 5px 43px -12px rgba(0, 0, 0, 0.25);
@@ -538,7 +539,7 @@
                 text-align: start;
                 letter-spacing: 0.025em;
                 text-transform: uppercase;
-                margin-left: 76px;
+                margin-left: 53px;
                 color: #020202;
     
                 &::placeholder{
@@ -595,14 +596,18 @@
         .infoText{
             .nameCompany{
                 font-size: 24px;
+                margin-left: -20px;
             }
             .descInfo{
                 font-size: 18px;
             }
+            img{
+                margin-left: -100px;
+            }
         }
         .infoImg{
             display: flex;
-                margin-left: 58px;
+                margin-left: -110px;
                 img.factryImg{
                     position: absolute;
                     z-index: 10;
@@ -631,7 +636,7 @@
         position: relative;
         z-index: 10;
         margin-top: -154px;
-        right: 200px;
+        right: 231px;
 
     }
 }
