@@ -389,8 +389,10 @@
     
 }
 @media screen and (max-width: 480px) {
+
     body{
-        width: 200px;
+        margin: 0px;
+        padding: 0px;
     }
     .firstSlide{
         .header{
@@ -431,7 +433,7 @@
             margin-right: 0px;
                 .mainHowItem{
                     margin-top: 70px;
-                    margin-left: 10px;
+                    margin-left: 50px;
                     margin-right: 80px;
                     text-align: start;
                     p{
@@ -511,7 +513,7 @@
     }
     .fourSlide{
         .nameCat{
-            margin-bottom: 100px;
+            margin-bottom: 23px;
         }
         form{
             display: block;
@@ -542,7 +544,7 @@
                 text-align: start;
                 letter-spacing: 0.025em;
                 text-transform: uppercase;
-                margin-left: 53px;
+                margin-left: 80px;
                 color: #020202;
     
                 &::placeholder{
@@ -565,7 +567,7 @@
                     height: 64px;
                     border: 0px;
                     text-align: center;
-                    margin-left: 50px;
+                    margin-left: 57px;
     
                     p{         
                         font-family: 'Montserrat';
@@ -582,7 +584,7 @@
         }
     }
     .swiper{
-        width: 600px;
+        width: 400px;
 
     .card-content{
         margin-left: 70px;
@@ -599,7 +601,7 @@
         .infoText{
             .nameCompany{
                 font-size: 24px;
-                margin-left: -20px;
+                margin-left: -3px;
             }
             .descInfo{
                 font-size: 18px;
@@ -610,7 +612,7 @@
         }
         .infoImg{
             display: flex;
-                margin-left: -110px;
+                margin-left: -96px;
                 img.factryImg{
                     position: absolute;
                     z-index: 10;
@@ -639,7 +641,11 @@
         position: relative;
         z-index: 10;
         margin-top: -154px;
-        right: 231px;
+        right: 183px;
+
+        p{
+            font-size: 16px;
+        }
 
     }
 }
