@@ -53,7 +53,7 @@
     color: #000000;
   }
   .fiveSlide {
-    display: block;
+    display: flex;
   }
   .fiveSlide .nameCat {
     margin-bottom: 50px;
@@ -67,7 +67,7 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
-    width: 980px;
+    width: 800px;
     height: 746px;
   }
 }
@@ -322,7 +322,7 @@
     margin-right: 0px;
   }
   .firstSlide .header .logoBlock {
-    margin-left: 40px;
+    margin-left: -177px;
   }
   .firstSlide .header .logoBlock .logo {
     margin-right: 7px;
@@ -334,7 +334,7 @@
     margin-right: 0px;
   }
   .firstSlide .menu .menuBlock {
-    margin-left: 7px;
+    margin-left: 200px;
   }
   .firstSlide .menu .menuBlock li a {
     font-size: 10px;
@@ -557,5 +557,11 @@
   }
   .nameCat {
     margin-bottom: 25px;
+  }
+  .lang {
+    position: relative;
+    z-index: 10;
+    margin-top: -154px;
+    right: 200px;
   }
 }/*# sourceMappingURL=adaptive.css.map */

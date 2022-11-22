@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 626px;
+  margin-right: 420px;
 }
 .header .logoBlock .logo {
   width: 69px;
@@ -74,13 +74,13 @@ body {
 .infoSlide .infoText {
   margin-top: 80px;
   margin-right: 100px;
-  margin-left: 195px;
+  margin-left: 50px;
 }
 .infoSlide .infoText .nameCompany {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 42px;
   line-height: 129.52%;
   letter-spacing: 0.025em;
   text-transform: uppercase;
@@ -90,30 +90,38 @@ body {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 32px;
   line-height: 129.52%;
   letter-spacing: 0.025em;
   text-transform: uppercase;
   color: #888888;
 }
+.infoSlide .infoText img {
+  width: 378px;
+  height: 200px;
+  margin-top: 5px;
+}
 .infoSlide .infoImg {
   display: flex;
 }
 .infoSlide .infoImg img.factryImg {
+  width: 600px;
+  height: 600px;
   position: absolute;
   z-index: 10;
 }
 .infoSlide .infoImg img.unionImg {
   position: relative;
   z-index: 0;
-  margin-right: 120px;
+  width: 600px;
+  height: 600px;
 }
 
 .lang {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-left: 240px;
+  margin-left: 17px;
   gap: 17px;
 }
 .lang p {
@@ -136,8 +144,8 @@ body {
   margin-top: 100px;
 }
 .secondSlide .downPrice .buttonDown {
-  width: 236px;
-  height: 70px;
+  width: 270px;
+  height: 111px;
   background: #6FCF97;
   border-radius: 15px;
   border: 0px;
@@ -157,7 +165,7 @@ body {
 
 .threeSlide .delivery {
   text-align: center;
-  margin-bottom: 220px;
+  margin-bottom: 120px;
   text-align: start;
   display: flex;
   justify-content: start;
@@ -187,6 +195,7 @@ body {
   font-size: 32px;
   line-height: 129.52%;
   /* or 41px */
+  margin-bottom: 107px;
   letter-spacing: 0.025em;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.75);
@@ -198,14 +207,14 @@ body {
 .fourSlide form {
   display: block;
   width: 760px;
-  height: 600px;
+  height: 960px;
   background-color: rgb(255, 255, 255);
   background: #FFFFFF;
   box-shadow: 0px 5px 43px -12px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 87px;
+  padding-top: 20px;
   margin-bottom: 50px;
 }
 .fourSlide form input {
