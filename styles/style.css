@@ -348,4 +348,34 @@ body {
 }
 .fiveSlide .contact-info .telCont .desc-items {
   margin-left: -32px;
+}
+
+.whyMe {
+  margin-bottom: 150px;
+}
+.whyMe .why {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.whyMe .why .main {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 129.52%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #219653;
+}
+.whyMe .why .desc {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 129.52%;
+  text-align: center;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
