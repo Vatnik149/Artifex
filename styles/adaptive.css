@@ -578,16 +578,16 @@
   .lang p {
     font-size: 16px;
   }
-}
-.whyMe {
-  margin-bottom: 150px;
-}
-.whyMe .why {
-  margin-bottom: 87px;
-}
-.whyMe .why .main {
-  font-size: 16px;
-}
-.whyMe .why .desc {
-  font-size: 12px;
+  .whyMe {
+    margin-bottom: 150px;
+  }
+  .whyMe .why {
+    margin-bottom: 87px;
+  }
+  .whyMe .why .main {
+    font-size: 16px;
+  }
+  .whyMe .why .desc {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=adaptive.css.map */
