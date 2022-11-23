@@ -540,11 +540,11 @@
     font-size: 18px;
   }
   .infoSlide .infoText img {
-    margin-left: -76px;
+    margin-left: -106px;
   }
   .infoSlide .infoImg {
     display: flex;
-    margin-left: -82px;
+    margin-left: -112px;
   }
   .infoSlide .infoImg img.factryImg {
     position: absolute;
@@ -579,15 +579,31 @@
     font-size: 16px;
   }
   .whyMe {
-    margin-bottom: 150px;
+    margin-bottom: 110px;
+  }
+  .whyMe .nameCat {
+    margin-bottom: -13px;
+  }
+  .whyMe .block {
+    display: block;
+  }
+  .whyMe .indoObrImg {
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+  .whyMe .indoObrImg img {
+    width: 250px;
+  }
+  .whyMe .indoObr {
+    margin-left: 0px;
   }
   .whyMe .why {
-    margin-bottom: 87px;
+    margin-bottom: 30px;
   }
   .whyMe .why .main {
     font-size: 16px;
   }
   .whyMe .why .desc {
-    font-size: 12px;
+    font-size: 10px;
   }
 }/*# sourceMappingURL=adaptive.css.map */

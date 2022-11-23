@@ -607,12 +607,12 @@
                 font-size: 18px;
             }
             img{
-                margin-left: -76px;
+                margin-left: -106px;
             }
         }
         .infoImg{
             display: flex;
-                margin-left: -82px;
+                margin-left: -112px;
                 img.factryImg{
                     position: absolute;
                     z-index: 10;
@@ -650,14 +650,31 @@
 
     }
     .whyMe{
-        margin-bottom: 150px;
+
+        .nameCat{
+            margin-bottom: -13px;
+        }
+        .block{
+            display: block;
+        }
+        .indoObrImg{
+            margin-left: 50px;
+            margin-bottom: 50px;
+            img{
+                width: 250px;
+            }
+        }
+        .indoObr{
+            margin-left: 0px;
+        }
+        margin-bottom: 110px;
         .why{
-            margin-bottom: 87px;
+            margin-bottom: 30px;
             .main{
             font-size: 16px;
             }
             .desc{
-            font-size: 12px;
+            font-size: 10px;
             }
     }
     }

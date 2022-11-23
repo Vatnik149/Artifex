@@ -349,7 +349,22 @@ body{
     }
 }
 .whyMe{
+    .block{
+        display: flex;
+    }
     margin-bottom: 150px;
+    .nameCat{
+        margin-bottom: 60px;
+    }
+    .indoObrImg{
+        margin-left: 139px;
+        img{
+            width: 650px;
+        }
+    }
+    .indoObr{
+        margin-left: 100px;
+    }
     .why{
         text-align: center;
         margin-bottom: 100px;
