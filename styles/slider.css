@@ -42,7 +42,7 @@ div.swiper-button-prev{
     border-radius: 100px;
     width: 64px;
     height: 64px;
-    margin-top: 925px;
+    margin-top: 788px;
 }
  .swiper-pagination-bullet-active{
     color: #000;
@@ -52,7 +52,7 @@ div.swiper-button-next{
     border-radius: 100px;
     width: 64px;
     height: 64px;
-    margin-top: 925px;
+    margin-top: 788px;
 }
 .swiper-button-next:after, .swiper-button-prev:after {
     color: #fff;
